@@ -60,7 +60,7 @@ class SimpleTextAnalyzer(QWidget):
         self.result_label.setWordWrap(True)
         layout.addWidget(self.result_label)
         # Подсказка
-        hint_label = QLabel("💡 Статистика обновляется автоматически при вводе текста")
+        hint_label = QLabel("Статистика обновляется автоматически при вводе текста")
         hint_label.setStyleSheet("font-size: 10px; color: #7f8c8d; font-style: italic;")
         hint_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(hint_label)
